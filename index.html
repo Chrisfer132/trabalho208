@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/5999/5999928.png" type="image/x-icon">
+    <title>Responsabilidade Social</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function mostrarMensagem() {
+            var respostaCorretaa = "c";
+            var escolhaUsuarioa = document.querySelector('input[name="respostaa"]:checked');
+            
+            if(escolhaUsuarioa) {
+                if(escolhaUsuarioa.value === respostaCorretaa) {
+                    alert("Parabéns! Você acertou.");
+                } else {
+                    alert("Poxa, você errou! A alternativa correta é a letra C.");
+                }
+            } else {
+                alert("Por favor, selecione uma alternativa.");
+            }
+        }
+
+        function mostrarMensagemb() {
+            var respostaCorretab = "a";
+            var escolhaUsuariob = document.querySelector('input[name="respostab"]:checked');
+
+            if(escolhaUsuariob) {
+                if(escolhaUsuariob.value === respostaCorretab) {
+                    alert("Parabéns! Você acertou.");
+                } else {
+                    alert("Poxa, você errou! A alternativa correta é a letra A.");
+                }
+            } else {
+                alert("Por favor, selecione uma alternativa.");
+            }
+            
+        }
+
+        function mostrarMensagemc() {
+            var respostaCorretac = "c";
+            var escolhaUsuarioc = document.querySelector('input[name="respostac"]:checked');
+
+            if(escolhaUsuarioc) {
+                if(escolhaUsuarioc.value === respostaCorretac) {
+                    alert("Parabéns! Você acertou.");
+                } else {
+                    alert("Poxa, você errou! A alternativa correta é a letra C.");
+                }
+            } else {
+                alert("Por favor, selecione uma alternativa."); 
+            }
+        }
+
+
+    </script>
+</head>
+<body>
+    <div id="cont">
+        <h1> Responsabilidade Social - Trabalho</h1>
+        <br>
+        <hr>
+        <br>
+        <p>Bem-vindo ao nosso espaço dedicado à Responsabilidade Social e Sustentabilidade. Aqui, exploraremos o que esses conceitos significam, por que são importantes e como podemos todos contribuir para um mundo melhor através de práticas socialmente responsáveis e sustentáveis.</p>
+        <br>
+        <br>
+        <h2 id="lado">O que é responsabilidade Social?</h2>
+        <br>
+        <p id="ladoo">A Responsabilidade Social refere-se ao compromisso das organizações de agir de forma ética e transparente, contribuindo para o desenvolvimento econômico, social e ambiental da comunidade em que estão inseridas. Isso envolve considerar não apenas os interesses dos acionistas, mas também os das partes interessadas, como funcionários, clientes, fornecedores e a sociedade em geral.</p>
+        <br>
+        <h2 id="lado">Por que é importante?</h2>
+        <br>
+        <p id="ladoo">Investir em Responsabilidade Social não apenas beneficia a sociedade, mas também traz vantagens para as próprias organizações. Empresas socialmente responsáveis geralmente desfrutam de uma melhor reputação, maior engajamento dos funcionários, lealdade dos clientes e, em última análise, maior sustentabilidade a longo prazo.</p>
+        <br>
+        <h2 id="lado">Sustentabilidade: Preservando o Nosso Futuro</h2>
+        <br>
+        <p id="ladoo">Sustentabilidade refere-se à capacidade de satisfazer as necessidades do presente sem comprometer a capacidade das gerações futuras de satisfazerem as suas próprias necessidades. Isso inclui a gestão responsável dos recursos naturais, a redução do desperdício e a mitigação dos impactos ambientais.</p>
+        <br>
+        <h2 id="lado">Como Praticar?</h2>
+        <p id="ladoo">Existem diversas maneiras pelas quais as organizações podem incorporar a Responsabilidade Social em suas operações: <br> <br>
+            <strong>Sustentabilidade Ambiental:</strong> Adoção de práticas que minimizem o impacto ambiental das atividades empresariais, como a redução do consumo de recursos naturais e a implementação de medidas de reciclagem e conservação. <br> <br>
+            <strong>Responsabilidade Social Corporativa (RSC):</strong> Compromisso com iniciativas que beneficiem a comunidade, como programas de voluntariado, doações para instituições de caridade e parcerias com organizações sem fins lucrativos.
+             <br><br> <strong>Ética nos Negócios:</strong> Adoção de políticas transparentes e éticas em todas as áreas de operação, promovendo a integridade e a equidade nas relações com clientes, fornecedores e funcionários. <br>
+            <br><br> <strong>Diversidade e Inclusão:</strong> Promoção de ambientes de trabalho inclusivos, que valorizem a diversidade de gênero, raça, orientação sexual e habilidades, visando à igualdade de oportunidades para todos.</p> <br>
+
+        <h2 id="ladoo">Impacto da Responsabilidade Social</h2>   
+        <p id="lado">Os benefícios da Responsabilidade Social são vastos e tangíveis. Além de contribuir para o bem-estar das comunidades e do meio ambiente, as empresas que adotam práticas socialmente responsáveis frequentemente experimentam:
+            <ul id="ladoo">
+                <li>Melhoria da reputação e imagem da marca.</li>
+                <li>Melhoria da reputação e imagem da marca.</li>
+                <li>Aumento da satisfação e lealdade dos clientes.</li>
+                <li>Maior engajamento e produtividade dos funcionários.</li>
+                <li>Redução de riscos legais e regulatórios.</li>
+                <li>Acesso a novos mercados e oportunidades de negócios.</li> <br> <br>
+            </ul>
+        </p>
+
+        <h1>Perguntas:</h1> <br>
+        <hr> <br>
+        <p id="lado">1- Qual das seguintes práticas NÃO está associada à Responsabilidade Social?</p>
+        <form id="formRespostaa">
+            <p id="ladoo">
+                <label><input type="radio" name="respostaa" value="a"> a) Doações para instituições de caridade</label><br>
+                <label><input type="radio" name="respostaa" value="b"> b) Redução do consumo de recursos naturais</label><br>
+                <label><input type="radio" name="respostaa" value="c"> c) Discriminação no local de trabalho</label><br>
+                <label><input type="radio" name="respostaa" value="d"> d) Promoção de ambientes inclusivos</label><br>
+                <br>
+            </p> 
+        </form>
+        <button onclick="mostrarMensagem()" id="botao">Ver Resposta</button>
+
+       <br> <br> <br> <br> <br> <p id="lado">2- O que é Responsabilidade Social?</p>
+        <form id="formRespostab">
+            <p id="ladoo">
+                <label><input type="radio" name="respostab" value="a"> a) Um compromisso das organizações de agir de forma ética e transparente.</label><br>
+                <label><input type="radio" name="respostab" value="b"> b) Um método para maximizar os lucros dos acionistas.</label><br>
+                <label><input type="radio" name="respostab" value="c"> c) Um conjunto de práticas que negligencia o impacto ambiental.</label><br>
+                <label><input type="radio" name="respostab" value="d"> d) Um modelo de negócio focado exclusivamente no crescimento econômico.</label><br>
+
+            </p>
+        </form> <br>
+        <button onclick="mostrarMensagemb()" id="botao">Ver Resposta</button>
+
+        <br> <br> <br> <br> <br> <p id="lado">3- Por que investir em Responsabilidade Social é importante?</p>
+        <form id="formRespostac">
+            <p id="ladoo">
+                <label><input type="radio" name="respostac" value="a"> a) Porque aumenta os lucros das empresas.</label> <br>
+                <label><input type="radio" name="respostac" value="b"> b) Porque beneficia apenas a sociedade, não as organizações.</label> <br>
+                <label><input type="radio" name="respostac" value="c"> c) Porque melhora a reputação e traz vantagens para as organizações.</label> <br>
+                <label><input type="radio" name="respostac" value="d"> d) Porque reduz a sustentabilidade a longo prazo.</label> <br>
+                
+            </p>
+        </form> <br>
+        <button onclick="mostrarMensagemc()" id="botao">Ver Resposta</button>
+
+        <br><br><br><br><br><br><hr><p>Trabalho - Betina, Bruno, Christian, Paula</p>
+        
+    </div>
+
+<script src="Trabalho/script.js"></script>
+</body>
+</html>

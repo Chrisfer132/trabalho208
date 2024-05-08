@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('https://portaladama.com/wp-content/uploads/2021/11/sustentabilidade-no-campo-2.jpeg');
+    background-size: cover;
+}
+
+#cont {
+    text-align: left;
+    margin: 5%; /* Alterado de 50px para 5% */
+    background-color: white;
+    padding: 5%;
+    border-radius: 10px;
+}
+
+#lado, #ladoo {
+    text-align: left;
+}
+
+#botao {
+    text-align: left; /* Alinhar o conteúdo à esquerda em telas menores */
+    background-color: gray;
+    border: none;
+    color: white;
+    padding: 15px 20px; /* Alterado de 15px 32px para 15px 20px */
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+#botao:hover {
+    background-color: green;
+}
+
+/* Adicionado: regras de estilo para telas menores que 768px */
+@media screen and (max-width: 768px) {
+    #cont {
+        margin: 3%; /* Margem reduzida para telas menores */
+        padding: 3%; /* Padding reduzido para telas menores */
+        text-align: left; /* Alinhar o conteúdo à esquerda em telas menores */
+    }
+
+    #lado, #ladoo {
+        font-size: 14px; /* Redução do tamanho de fonte para telas menores */
+    }
+
+    #botao {
+        padding: 12px 18px; /* Redução do padding para botões em telas menores */
+        font-size: 14px; /* Redução do tamanho de fonte para botões em telas menores */
+    }
+}
+
+h1 {
+    text-align: center;
+}
